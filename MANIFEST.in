@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include techtrix *.css
+recursive-include techtrix *.csv
+recursive-include techtrix *.html
+recursive-include techtrix *.ico
+recursive-include techtrix *.js
+recursive-include techtrix *.json
+recursive-include techtrix *.md
+recursive-include techtrix *.png
+recursive-include techtrix *.py
+recursive-include techtrix *.svg
+recursive-include techtrix *.txt
+recursive-exclude techtrix *.pyc

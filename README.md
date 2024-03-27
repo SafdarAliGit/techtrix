@@ -1,0 +1,7 @@
+## Techrix
+
+techrix
+
+#### License
+
+MIT
