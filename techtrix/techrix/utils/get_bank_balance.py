@@ -1,4 +1,6 @@
 import frappe
+
+
 @frappe.whitelist()
 def get_bank_balance():
     bank_query = """
