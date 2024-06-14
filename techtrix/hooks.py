@@ -217,5 +217,6 @@ app_license = "MIT"
 # ]
 override_doctype_class = {
     "Purchase Order": "techtrix.overrides.purchase_order_overrides.PurchaseOrderOverrides",
+    "Sales Order": "techtrix.overrides.sales_order_overrides.SalesOrderOverrides",
 }
 required_apps = ["erpnext"]
