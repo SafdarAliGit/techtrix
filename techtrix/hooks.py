@@ -215,4 +215,7 @@ app_license = "MIT"
 # auth_hooks = [
 #	"techtrix.auth.validate"
 # ]
+override_doctype_class = {
+    "Purchase Order": "techtrix.overrides.purchase_order_overrides.PurchaseOrderOverrides",
+}
 required_apps = ["erpnext"]
