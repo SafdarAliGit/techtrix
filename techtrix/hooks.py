@@ -15,7 +15,10 @@ app_license = "MIT"
 # app_include_js = "/assets/techtrix/js/techtrix.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/techtrix/css/techtrix.css"
+
+# web_include_css = [
+#     "/assets/techtrix/css/login.css"
+# ]
 # web_include_js = "/assets/techtrix/js/techtrix.js"
 
 # include custom scss in every website theme (without file extension ".scss")
@@ -215,6 +218,6 @@ doc_events = {
 # ]
 override_doctype_class = {
     "Purchase Order": "techtrix.overrides.purchase_order_overrides.PurchaseOrderOverrides",
-    "Sales Order": "techtrix.overrides.sales_order_overrides.SalesOrderOverrides",
+    # "Sales Order": "techtrix.overrides.sales_order_overrides.SalesOrderOverrides",
 }
 required_apps = ["erpnext"]
