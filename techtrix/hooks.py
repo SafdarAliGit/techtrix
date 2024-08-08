@@ -122,9 +122,12 @@ app_license = "MIT"
 # Hook on document methods and events
 
 doc_events = {
-	"Sales Invoice": {
-		"validate": "techtrix.overrides.sales_invoice.validate"
-	}
+    "Sales Invoice": {
+        "validate": "techtrix.overrides.sales_invoice.validate"
+    },
+    "Purchase Invoice": {
+        "validate": "techtrix.overrides.purchase_invoice.validate",
+    }
 }
 
 # Scheduled Tasks
